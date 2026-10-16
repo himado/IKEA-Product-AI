@@ -1,0 +1,128 @@
+{
+  "scenario": "S7_goc_doc_sach",
+  "request": "Góc đọc sách: một ghế bành êm, thảm nhỏ và đèn đứng, tổng dưới 5 triệu",
+  "budget": 29412,
+  "budget_vnd": 5000000,
+  "total_price": 20988,
+  "total_vnd": 3568000,
+  "picks": [
+    {
+      "category": "armchair",
+      "item_no": "19240788",
+      "name": "POÄNG",
+      "type_name": "Armchair",
+      "price": 10990,
+      "price_vnd": 1868000,
+      "qty": 1,
+      "score": 0.8473,
+      "size_cm": [
+        68.8,
+        83.4,
+        100.2
+      ],
+      "model_file": "models/19240788.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 43.1,
+        "y": 83.3,
+        "w": 68.8,
+        "h": 83.4,
+        "clear_x": 43.1,
+        "clear_y": 33.3,
+        "clear_w": 68.8,
+        "clear_h": 133.4,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"ghế bành êm để đọc sách\" (độ giống 0.847); vừa vùng z1 (góc trống, 135×180 cm), chừa 50 cm phía trước; giá 1.868.000 ₫",
+      "fit_vi": "khớp \"ghế bành êm để đọc sách\" (độ giống 0.847); vừa vùng z1 (góc trống, 135×180 cm), chừa 50 cm phía trước; giá 1.868.000 ₫",
+      "target_vnd": 1889000,
+      "alternatives": [
+        "TULLSTA Armchair 3.398.000 ₫",
+        "ROCKSJÖN Armchair 3.738.000 ₫",
+        "IKEA PS 2026 Easy chair 1.698.000 ₫"
+      ]
+    },
+    {
+      "category": "rug",
+      "item_no": "40587008",
+      "name": "VÄGSKYLT",
+      "type_name": "Rug, flatwoven",
+      "price": 5999,
+      "price_vnd": 1020000,
+      "qty": 1,
+      "score": 0.8621,
+      "size_cm": [
+        150.0,
+        80.0,
+        1.0
+      ],
+      "model_file": "models/40587008.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 37.5,
+        "y": 25.0,
+        "w": 80.0,
+        "h": 150.0,
+        "clear_x": 37.5,
+        "clear_y": 25.0,
+        "clear_w": 80.0,
+        "clear_h": 150.0,
+        "front": "left"
+      },
+      "reason_vi": "khớp \"thảm nhỏ\" (độ giống 0.862); vừa vùng z1 (góc trống, 135×180 cm); giá 1.020.000 ₫",
+      "fit_vi": "khớp \"thảm nhỏ\" (độ giống 0.862); vừa vùng z1 (góc trống, 135×180 cm); giá 1.020.000 ₫",
+      "target_vnd": 1574000,
+      "alternatives": [
+        "TIPHEDE Rug, flatwoven 68.000 ₫",
+        "ÄRENDE Rug, high pile 425.000 ₫",
+        "LEN Rug, low pile 1.020.000 ₫"
+      ]
+    },
+    {
+      "category": "floor_lamp",
+      "item_no": "00110904",
+      "name": "LERSTA",
+      "type_name": "Floor/reading lamp",
+      "price": 3999,
+      "price_vnd": 680000,
+      "qty": 1,
+      "score": 0.8382,
+      "size_cm": [
+        25.1,
+        41.9,
+        146.8
+      ],
+      "model_file": "models/00110904.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 158.1,
+        "y": 147.45,
+        "w": 41.9,
+        "h": 25.1,
+        "clear_x": 158.1,
+        "clear_y": 147.45,
+        "clear_w": 41.9,
+        "clear_h": 25.1,
+        "front": "left"
+      },
+      "reason_vi": "khớp \"đèn đứng đọc sách\" (độ giống 0.838); vừa vùng z2 (cạnh tường, 50×80 cm); giá 680.000 ₫",
+      "fit_vi": "khớp \"đèn đứng đọc sách\" (độ giống 0.838); vừa vùng z2 (cạnh tường, 50×80 cm); giá 680.000 ₫",
+      "target_vnd": 787000,
+      "alternatives": [
+        "ISJAKT LED floor uplighter/reading lamp 2.455.000 ₫",
+        "TÅGARP Floor uplighter/reading lamp 510.000 ₫",
+        "SKOTTORP / SKAFTET Floor lamp, arched 2.293.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [
+    "đèn cây ≤ giá ghế bành",
+    "thảm ≤ giá ghế bành"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.16
+}

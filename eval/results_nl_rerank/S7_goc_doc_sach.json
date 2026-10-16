@@ -1,0 +1,128 @@
+{
+  "scenario": "S7_goc_doc_sach",
+  "request": "Góc đọc sách: một ghế bành êm, thảm nhỏ và đèn đứng, tổng dưới 5 triệu",
+  "budget": 29412,
+  "budget_vnd": 5000000,
+  "total_price": 24479,
+  "total_vnd": 4161000,
+  "picks": [
+    {
+      "category": "armchair",
+      "item_no": "19240788",
+      "name": "POÄNG",
+      "type_name": "Armchair",
+      "price": 10990,
+      "price_vnd": 1868000,
+      "qty": 1,
+      "score": 0.8653,
+      "size_cm": [
+        68.8,
+        83.4,
+        100.2
+      ],
+      "model_file": "models/19240788.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 43.1,
+        "y": 83.3,
+        "w": 68.8,
+        "h": 83.4,
+        "clear_x": 43.1,
+        "clear_y": 33.3,
+        "clear_w": 68.8,
+        "clear_h": 133.4,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"armchair\" (độ giống 0.865); vừa vùng z1 (góc trống, 135×180 cm), chừa 50 cm phía trước; giá 1.868.000 ₫",
+      "fit_vi": "khớp \"armchair\" (độ giống 0.865); vừa vùng z1 (góc trống, 135×180 cm), chừa 50 cm phía trước; giá 1.868.000 ₫",
+      "target_vnd": 1889000,
+      "alternatives": [
+        "ÅRSUNDA Armchair 1.530.000 ₫",
+        "POÄNG Rocking-chair 2.888.000 ₫",
+        "TULLSTA Armchair 3.398.000 ₫"
+      ]
+    },
+    {
+      "category": "rug",
+      "item_no": "00494191",
+      "name": "LOHALS",
+      "type_name": "Rug, flatwoven",
+      "price": 9990,
+      "price_vnd": 1698000,
+      "qty": 1,
+      "score": 0.8677,
+      "size_cm": [
+        129.8,
+        129.8,
+        0.7
+      ],
+      "model_file": "models/00494191.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 12.599999999999994,
+        "y": 35.099999999999994,
+        "w": 129.8,
+        "h": 129.8,
+        "clear_x": 12.599999999999994,
+        "clear_y": 35.099999999999994,
+        "clear_w": 129.8,
+        "clear_h": 129.8,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"rug\" (độ giống 0.868); vừa vùng z1 (góc trống, 135×180 cm); giá 1.698.000 ₫",
+      "fit_vi": "khớp \"rug\" (độ giống 0.868); vừa vùng z1 (góc trống, 135×180 cm); giá 1.698.000 ₫",
+      "target_vnd": 1574000,
+      "alternatives": [
+        "ÄRENDE Rug, high pile 2.038.000 ₫",
+        "LEN Rug, low pile 1.020.000 ₫",
+        "TIPHEDE Rug, flatwoven 68.000 ₫"
+      ]
+    },
+    {
+      "category": "floor_lamp",
+      "item_no": "60556497",
+      "name": "HÅRSLINGA",
+      "type_name": "Floor lamp",
+      "price": 3499,
+      "price_vnd": 595000,
+      "qty": 1,
+      "score": 0.8994,
+      "size_cm": [
+        50.2,
+        21.0,
+        152.8
+      ],
+      "model_file": "models/60556497.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 179.0,
+        "y": 134.9,
+        "w": 21.0,
+        "h": 50.2,
+        "clear_x": 179.0,
+        "clear_y": 134.9,
+        "clear_w": 21.0,
+        "clear_h": 50.2,
+        "front": "left"
+      },
+      "reason_vi": "khớp \"floor lamp\" (độ giống 0.899); vừa vùng z2 (cạnh tường, 50×80 cm); giá 595.000 ₫",
+      "fit_vi": "khớp \"floor lamp\" (độ giống 0.899); vừa vùng z2 (cạnh tường, 50×80 cm); giá 595.000 ₫",
+      "target_vnd": 787000,
+      "alternatives": [
+        "VIDJA Floor lamp 1.698.000 ₫",
+        "KINNAHULT Floor lamp 1.868.000 ₫",
+        "ÅRSTID Floor lamp 1.698.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": "rerank lỗi (LLMUnavailable: all Gemini models failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, p) -> dùng bộ theo điểm",
+  "comment_vi": null,
+  "price_rules": [
+    "đèn cây ≤ giá ghế bành",
+    "thảm ≤ giá ghế bành"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.079
+}

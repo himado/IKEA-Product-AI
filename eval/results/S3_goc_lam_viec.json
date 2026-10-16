@@ -1,0 +1,106 @@
+{
+  "scenario": "S3_goc_lam_viec",
+  "request": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 7 triệu",
+  "budget": 41176,
+  "budget_vnd": 7000000,
+  "total_price": 37979,
+  "total_vnd": 6456000,
+  "picks": [
+    {
+      "category": "desk",
+      "item_no": "09416820",
+      "name": "LAGKAPTEN / ALEX",
+      "type_name": "Desk",
+      "price": 14990,
+      "price_vnd": 2548000,
+      "qty": 1,
+      "score": 0.8604,
+      "size_cm": [
+        120.1,
+        60.1,
+        73.5
+      ],
+      "model_file": "models/09416820.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 39.95,
+        "y": 139.9,
+        "w": 120.1,
+        "h": 60.1,
+        "clear_x": 39.95,
+        "clear_y": 69.9,
+        "clear_w": 120.1,
+        "clear_h": 130.1,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"bàn làm việc máy tính\" (độ giống 0.860); vừa vùng z1 (tường có ổ điện, 160×140 cm), chừa 70 cm phía trước; giá 2.548.000 ₫",
+      "fit_vi": "khớp \"bàn làm việc máy tính\" (độ giống 0.860); vừa vùng z1 (tường có ổ điện, 160×140 cm), chừa 70 cm phía trước; giá 2.548.000 ₫",
+      "target_vnd": 2565000,
+      "alternatives": [
+        "TORALD Desk 678.000 ₫",
+        "LINNMON / ADILS Desk 729.000 ₫",
+        "MULLSJÖ Desk 4.588.000 ₫"
+      ]
+    },
+    {
+      "category": "desk_chair",
+      "item_no": "30503453",
+      "name": "SMÖRKULL",
+      "type_name": "Office chair with armrests",
+      "price": 19990,
+      "price_vnd": 3398000,
+      "qty": 1,
+      "score": 0.8642,
+      "size_cm": [
+        66.0,
+        64.9,
+        108.0
+      ],
+      "model_file": "models/30503453.glb",
+      "placement": null,
+      "reason_vi": "khớp \"ghế xoay văn phòng\" (độ giống 0.864); đặt trên đồ khác, không cần chỗ trên sàn; giá 3.398.000 ₫",
+      "fit_vi": "khớp \"ghế xoay văn phòng\" (độ giống 0.864); đặt trên đồ khác, không cần chỗ trên sàn; giá 3.398.000 ₫",
+      "target_vnd": 3078000,
+      "alternatives": [
+        "FLINTAN Office chair 2.038.000 ₫",
+        "MARKUS Office chair 3.908.000 ₫",
+        "FLINTAN Office chair with armrests 2.548.000 ₫"
+      ]
+    },
+    {
+      "category": "table_lamp",
+      "item_no": "10146790",
+      "name": "FORSÅ",
+      "type_name": "Work lamp",
+      "price": 2999,
+      "price_vnd": 510000,
+      "qty": 1,
+      "score": 0.8765,
+      "size_cm": [
+        47.9,
+        15.1,
+        39.8
+      ],
+      "model_file": "models/10146790.glb",
+      "placement": null,
+      "reason_vi": "khớp \"đèn bàn làm việc\" (độ giống 0.876); đặt trên đồ khác, không cần chỗ trên sàn; giá 510.000 ₫",
+      "fit_vi": "khớp \"đèn bàn làm việc\" (độ giống 0.876); đặt trên đồ khác, không cần chỗ trên sàn; giá 510.000 ₫",
+      "target_vnd": 308000,
+      "alternatives": [
+        "RÖDFLIK Desk lamp 595.000 ₫",
+        "ÅRSTID Table lamp 595.000 ₫",
+        "TOKABO Table lamp 255.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [
+    "đèn bàn ≤ 50% giá bàn làm việc",
+    "ghế làm việc ≤ 2 lần giá bàn"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.091
+}

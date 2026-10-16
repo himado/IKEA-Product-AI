@@ -1,0 +1,106 @@
+{
+  "scenario": "S3_goc_lam_viec",
+  "request": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 7 triệu",
+  "budget": 41176,
+  "budget_vnd": 7000000,
+  "total_price": 33479,
+  "total_vnd": 5691000,
+  "picks": [
+    {
+      "category": "desk",
+      "item_no": "09416820",
+      "name": "LAGKAPTEN / ALEX",
+      "type_name": "Desk",
+      "price": 14990,
+      "price_vnd": 2548000,
+      "qty": 1,
+      "score": 0.8567,
+      "size_cm": [
+        120.1,
+        60.1,
+        73.5
+      ],
+      "model_file": "models/09416820.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 39.95,
+        "y": 139.9,
+        "w": 120.1,
+        "h": 60.1,
+        "clear_x": 39.95,
+        "clear_y": 69.9,
+        "clear_w": 120.1,
+        "clear_h": 130.1,
+        "front": "down"
+      },
+      "reason_vi": "Bàn LAGKAPTEN / ALEX màu trắng có kích thước 120 x 60 cm, phù hợp với không gian góc làm việc 2,4 x 2 m và khu vực tường có ổ điện (z1). Mức giá 2.548.000 VND rất sát với ngân sách đề ra và cho phép kết hợp với các món đồ khác.",
+      "fit_vi": "khớp \"desk\" (độ giống 0.857); vừa vùng z1 (tường có ổ điện, 160×140 cm), chừa 70 cm phía trước; giá 2.548.000 ₫",
+      "target_vnd": 2565000,
+      "alternatives": [
+        "TORALD Desk 678.000 ₫",
+        "MULLSJÖ Desk 4.588.000 ₫",
+        "KOMPISHÄNG Desk 2.548.000 ₫"
+      ]
+    },
+    {
+      "category": "desk_chair",
+      "item_no": "29252766",
+      "name": "LÅNGFJÄLL",
+      "type_name": "Conference chair with armrests",
+      "price": 16990,
+      "price_vnd": 2888000,
+      "qty": 1,
+      "score": 0.8504,
+      "size_cm": [
+        68.1,
+        65.1,
+        85.3
+      ],
+      "model_file": "models/29252766.glb",
+      "placement": null,
+      "reason_vi": "Ghế xoay LÅNGFJÄLL màu be/trắng có tay vịn, mang lại sự thoải mái với đường nét cong nhẹ nhàng và khả năng điều chỉnh độ nghiêng, chiều cao. Với giá 2.888.000 VND, ghế này có chất lượng tốt, phù hợp với bàn làm việc và tuân thủ quy tắc giá (≤ 2 lần giá bàn).",
+      "fit_vi": "khớp \"swivel desk chair\" (độ giống 0.850); đặt trên đồ khác, không cần chỗ trên sàn; giá 2.888.000 ₫",
+      "target_vnd": 3078000,
+      "alternatives": [
+        "SMÄLLEN Swivel chair 508.000 ₫",
+        "ÖRFJÄLL Swivel chair 1.358.000 ₫",
+        "LOBERGET / MALSKÄR Swivel chair 1.018.000 ₫"
+      ]
+    },
+    {
+      "category": "table_lamp",
+      "item_no": "20358017",
+      "name": "TOKABO",
+      "type_name": "Table lamp",
+      "price": 1499,
+      "price_vnd": 255000,
+      "qty": 1,
+      "score": 0.8797,
+      "size_cm": [
+        12.5,
+        12.6,
+        14.7
+      ],
+      "model_file": "models/20358017.glb",
+      "placement": null,
+      "reason_vi": "Đèn bàn TOKABO màu trắng opal bằng thủy tinh có kích thước nhỏ gọn 12 x 13 x 15 cm, lý tưởng cho góc làm việc. Giá 255.000 VND rất phải chăng và tuân thủ quy tắc giá (≤ 50% giá bàn làm việc).",
+      "fit_vi": "khớp \"table lamp\" (độ giống 0.880); đặt trên đồ khác, không cần chỗ trên sàn; giá 255.000 ₫",
+      "target_vnd": 308000,
+      "alternatives": [
+        "HÖGVIND Table lamp 765.000 ₫",
+        "TVÄRHAND Table lamp 340.000 ₫",
+        "ÅRSTID Table lamp 595.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "gemini-2.5-flash",
+  "rerank_note": null,
+  "comment_vi": "Bộ sản phẩm này tạo nên một góc làm việc tại nhà tiện nghi và hiện đại với tông màu trắng chủ đạo, dễ dàng hòa hợp với nhiều phong cách nội thất. Tổng chi phí 5.691.000 VND nằm trong ngân sách 7.000.000 VND của bạn.",
+  "price_rules": [
+    "đèn bàn ≤ 50% giá bàn làm việc",
+    "ghế làm việc ≤ 2 lần giá bàn"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.043
+}

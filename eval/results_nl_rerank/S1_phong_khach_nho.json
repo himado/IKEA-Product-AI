@@ -1,0 +1,128 @@
+{
+  "scenario": "S1_phong_khach_nho",
+  "request": "Phòng khách nhỏ, cần sofa 2 chỗ, bàn trà và một đèn cây để đọc sách, tổng dưới 10 triệu",
+  "budget": 58824,
+  "budget_vnd": 10000000,
+  "total_price": 38488,
+  "total_vnd": 6543000,
+  "picks": [
+    {
+      "category": "sofa",
+      "item_no": "39508861",
+      "name": "ROCKSJÖN",
+      "type_name": "2-seat sofa",
+      "price": 26990,
+      "price_vnd": 4588000,
+      "qty": 1,
+      "score": 0.8717,
+      "size_cm": [
+        142.0,
+        77.0,
+        80.0
+      ],
+      "model_file": "models/39508861.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 89.0,
+        "y": 223.0,
+        "w": 142.0,
+        "h": 77.0,
+        "clear_x": 89.0,
+        "clear_y": 163.0,
+        "clear_w": 142.0,
+        "clear_h": 137.0,
+        "front": "down"
+      },
+      "reason_vi": "Chúng tôi chọn ghế sofa ROCKSJÖN 2 chỗ màu be nhạt với kích thước gọn gàng 142 x 77 x 80 cm, rất phù hợp cho phòng khách nhỏ của bạn. Thiết kế thanh lịch và màu sắc trung tính sẽ giúp không gian trông rộng rãi và dễ phối hợp với các món đồ khác.",
+      "fit_vi": "khớp \"2-seat sofa\" (độ giống 0.872); vừa vùng z1 (tường đối diện cửa, 240×150 cm), chừa 60 cm phía trước; giá 4.588.000 ₫",
+      "target_vnd": 5930000,
+      "alternatives": [
+        "HEMLINGBY 2-seat sofa 3.058.000 ₫",
+        "GLOSTAD 2-seat sofa 2.038.000 ₫",
+        "HEMLINGBY Two-seat sofa 4.248.000 ₫"
+      ]
+    },
+    {
+      "category": "coffee_side_table",
+      "item_no": "80541419",
+      "name": "HOLMERUD",
+      "type_name": "Coffee table",
+      "price": 7999,
+      "price_vnd": 1360000,
+      "qty": 1,
+      "score": 0.8585,
+      "size_cm": [
+        90.0,
+        55.0,
+        40.2
+      ],
+      "model_file": "models/80541419.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 115.0,
+        "y": 72.5,
+        "w": 90.0,
+        "h": 55.0,
+        "clear_x": 115.0,
+        "clear_y": 42.5,
+        "clear_w": 90.0,
+        "clear_h": 85.0,
+        "front": "down"
+      },
+      "reason_vi": "Bàn trà HOLMERUD màu nâu sẫm có kích thước 90 x 55 x 40 cm, vừa vặn với khu vực giữa phòng (z2) và có giá 1.360.000 VND, đáp ứng quy tắc giá (dưới 60% giá sofa). Bàn có thiết kế kiến trúc độc đáo và không gian lưu trữ mở tiện lợi.",
+      "fit_vi": "khớp \"coffee table\" (độ giống 0.858); vừa vùng z2 (giữa phòng, 140×110 cm), chừa 30 cm phía trước; giá 1.360.000 ₫",
+      "target_vnd": 1581000,
+      "alternatives": [
+        "MOXBODA Coffee table 1.530.000 ₫",
+        "GLADOM Tray table 340.000 ₫",
+        "VITTSJÖ Coffee table 2.038.000 ₫"
+      ]
+    },
+    {
+      "category": "floor_lamp",
+      "item_no": "90443946",
+      "name": "LERSTA",
+      "type_name": "Floor/reading lamp",
+      "price": 3499,
+      "price_vnd": 595000,
+      "qty": 1,
+      "score": 0.9069,
+      "size_cm": [
+        25.2,
+        54.4,
+        145.2
+      ],
+      "model_file": "models/90443946.glb",
+      "placement": {
+        "zone_id": "z3",
+        "x": 295.6,
+        "y": 247.4,
+        "w": 54.4,
+        "h": 25.2,
+        "clear_x": 295.6,
+        "clear_y": 247.4,
+        "clear_w": 54.4,
+        "clear_h": 25.2,
+        "front": "left"
+      },
+      "reason_vi": "Đèn cây đọc sách LERSTA màu trắng với cánh tay đèn có thể điều chỉnh là lựa chọn lý tưởng để đọc sách, có giá 595.000 VND. Đèn có thể đặt ở góc phải (z3) và tuân thủ quy tắc giá (dưới 50% giá sofa).",
+      "fit_vi": "khớp \"floor lamp for reading\" (độ giống 0.907); vừa vùng z3 (góc phải, 60×80 cm); giá 595.000 ₫",
+      "target_vnd": 988000,
+      "alternatives": [
+        "ISJAKT LED floor uplighter/reading lamp 2.455.000 ₫",
+        "TÅGARP Floor uplighter/reading lamp 510.000 ₫",
+        "HÅRSLINGA Floor lamp 595.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "gemini-2.5-flash",
+  "rerank_note": null,
+  "comment_vi": "Bộ sản phẩm này được chọn để tối ưu hóa không gian phòng khách nhỏ, với các món đồ có kích thước phù hợp và màu sắc hài hòa. Tổng chi phí 6.543.000 VND nằm trong ngân sách 10.000.000 VND của bạn.",
+  "price_rules": [
+    "bàn trà ≤ 60% giá sofa",
+    "đèn cây ≤ 50% giá sofa"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.23
+}

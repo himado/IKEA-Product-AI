@@ -1,0 +1,108 @@
+{
+  "scenario": "S7_goc_doc_sach",
+  "request": "Góc đọc sách: một ghế bành êm, thảm nhỏ và đèn đứng, tổng dưới 30.000 yên",
+  "budget": 30000,
+  "total_price": 21488,
+  "picks": [
+    {
+      "category": "armchair",
+      "item_no": "70535895",
+      "name": "ÅRSUNDA",
+      "type_name": "Armchair",
+      "price": 8999,
+      "qty": 1,
+      "score": 0.8787,
+      "size_cm": [
+        66.2,
+        72.3,
+        99.6
+      ],
+      "model_file": "models/70535895.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 44.4,
+        "y": 88.85,
+        "w": 66.2,
+        "h": 72.3,
+        "clear_x": 44.4,
+        "clear_y": 38.85,
+        "clear_w": 66.2,
+        "clear_h": 122.3,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"comfortable armchair\" (độ giống 0.879); vừa vùng z1 (góc trống, 135×180 cm), chừa 50 cm phía trước; giá ¥8,999",
+      "alternatives": [
+        "POÄNG Armchair ¥10,990",
+        "TULLSTA Armchair ¥19,990",
+        "POÄNG Rocking-chair ¥16,990"
+      ]
+    },
+    {
+      "category": "rug",
+      "item_no": "10628779",
+      "name": "ÄRENDE",
+      "type_name": "Rug, high pile",
+      "price": 2499,
+      "qty": 1,
+      "score": 0.869,
+      "size_cm": [
+        80.0,
+        80.0,
+        0.5
+      ],
+      "model_file": "models/10628779.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 37.5,
+        "y": 60.0,
+        "w": 80.0,
+        "h": 80.0,
+        "clear_x": 37.5,
+        "clear_y": 60.0,
+        "clear_w": 80.0,
+        "clear_h": 80.0,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"small rug\" (độ giống 0.869); vừa vùng z1 (góc trống, 135×180 cm); giá ¥2,499",
+      "alternatives": [
+        "TIPHEDE Rug, flatwoven ¥399",
+        "LEN Rug, low pile ¥5,999",
+        "VÄGSKYLT Rug, flatwoven ¥5,999"
+      ]
+    },
+    {
+      "category": "floor_lamp",
+      "item_no": "60309204",
+      "name": "VIDJA",
+      "type_name": "Floor lamp",
+      "price": 9990,
+      "qty": 1,
+      "score": 0.9034,
+      "size_cm": [
+        19.2,
+        19.3,
+        138.1
+      ],
+      "model_file": "models/60309204.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 180.7,
+        "y": 150.4,
+        "w": 19.3,
+        "h": 19.2,
+        "clear_x": 180.7,
+        "clear_y": 150.4,
+        "clear_w": 19.3,
+        "clear_h": 19.2,
+        "front": "left"
+      },
+      "reason_vi": "khớp \"floor lamp\" (độ giống 0.903); vừa vùng z2 (cạnh tường, 50×80 cm); giá ¥9,990",
+      "alternatives": [
+        "HÅRSLINGA Floor lamp ¥3,499",
+        "KINNAHULT Floor lamp ¥10,990",
+        "ÅRSTID Floor lamp ¥9,990"
+      ]
+    }
+  ],
+  "unmet": []
+}

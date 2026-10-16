@@ -1,0 +1,80 @@
+{
+  "scenario": "S4_phong_an",
+  "request": "Bàn ăn cho 4 người kèm 4 ghế, tổng dưới 8 triệu",
+  "budget": 47059,
+  "budget_vnd": 8000000,
+  "total_price": 34990,
+  "total_vnd": 5948000,
+  "picks": [
+    {
+      "category": "dining_table",
+      "item_no": "60617962",
+      "name": "IKEA PS 2026",
+      "type_name": "Table",
+      "price": 14990,
+      "price_vnd": 2548000,
+      "qty": 1,
+      "score": 0.8291,
+      "size_cm": [
+        96.1,
+        96.0,
+        75.6
+      ],
+      "model_file": "models/60617962.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 101.95,
+        "y": 137.0,
+        "w": 96.1,
+        "h": 96.0,
+        "clear_x": 31.950000000000003,
+        "clear_y": 67.0,
+        "clear_w": 236.1,
+        "clear_h": 166.0,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"bàn ăn cho 4 người\" (độ giống 0.829); vừa vùng z1 (giữa phòng ăn, 260×240 cm), chừa 70 cm phía trước, 70 cm mỗi bên; giá 2.548.000 ₫",
+      "fit_vi": "khớp \"bàn ăn cho 4 người\" (độ giống 0.829); vừa vùng z1 (giữa phòng ăn, 260×240 cm), chừa 70 cm phía trước, 70 cm mỗi bên; giá 2.548.000 ₫",
+      "target_vnd": 3400000,
+      "alternatives": [
+        "SANDSBERG Table 1.188.000 ₫",
+        "DOCKSTA Table 4.758.000 ₫",
+        "NORDEN Gateleg table 6.798.000 ₫"
+      ]
+    },
+    {
+      "category": "dining_chair",
+      "item_no": "10635176",
+      "name": "PINNTORP",
+      "type_name": "Chair",
+      "price": 5000,
+      "price_vnd": 850000,
+      "qty": 4,
+      "score": 0.8524,
+      "size_cm": [
+        41.7,
+        49.5,
+        90.1
+      ],
+      "model_file": "models/10635176.glb",
+      "placement": null,
+      "reason_vi": "khớp \"ghế ăn\" (độ giống 0.852); đặt trên đồ khác, không cần chỗ trên sàn; giá 850.000 ₫ × 4",
+      "fit_vi": "khớp \"ghế ăn\" (độ giống 0.852); đặt trên đồ khác, không cần chỗ trên sàn; giá 850.000 ₫ × 4",
+      "target_vnd": 3400000,
+      "alternatives": [
+        "SKOGSTA Chair 1.870.000 ₫",
+        "TEODORES Chair 1.020.000 ₫",
+        "SKÅLSTA Chair 850.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [
+    "mỗi ghế ăn ≤ 50% giá bàn ăn"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.125
+}

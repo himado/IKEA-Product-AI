@@ -1,0 +1,230 @@
+{
+  "09618804": {
+    "name": "GLOSTAD",
+    "type_name": "2-seat sofa with chaise longue",
+    "category": "sofa",
+    "reason": "size_mismatch (max error 55.4%)"
+  },
+  "19399113": {
+    "name": "VIMLE",
+    "type_name": "3-seat sofa",
+    "category": "sofa",
+    "reason": "size_mismatch (max error 68.1%)"
+  },
+  "19440594": {
+    "name": "KIVIK",
+    "type_name": "2-seat sofa",
+    "category": "sofa",
+    "reason": "heavy: 139,036 triangles > 100,000"
+  },
+  "19443045": {
+    "name": "KIVIK",
+    "type_name": "2-seat sofa",
+    "category": "sofa",
+    "reason": "heavy: 140,313 triangles > 100,000"
+  },
+  "39622079": {
+    "name": "SÖDERHAMN",
+    "type_name": "4-seat sofa",
+    "category": "sofa",
+    "reason": "size_mismatch (max error 52.5%)"
+  },
+  "99399487": {
+    "name": "VIMLE",
+    "type_name": "4-seat sofa with chaise longue",
+    "category": "sofa",
+    "reason": "size_mismatch (max error 68.1%)"
+  },
+  "70620370": {
+    "name": "IKEA PS 2026",
+    "type_name": "Chair-bed",
+    "category": "armchair",
+    "reason": "heavy: 139,138 triangles > 100,000"
+  },
+  "99392589": {
+    "name": "VIMLE",
+    "type_name": "Footstool with storage",
+    "category": "ottoman_pouffe",
+    "reason": "heavy: 237,561 triangles > 100,000"
+  },
+  "10551379": {
+    "name": "JANOLOF",
+    "type_name": "Swivel dining chair",
+    "category": "dining_chair",
+    "reason": "size_mismatch (max error 24.7%)"
+  },
+  "80605430": {
+    "name": "SANDSBERG",
+    "type_name": "Chair",
+    "category": "dining_chair",
+    "reason": "heavy: 154,701 triangles > 100,000"
+  },
+  "40355409": {
+    "name": "MALM",
+    "type_name": "Dressing table",
+    "category": "desk",
+    "reason": "size_mismatch (max error 20.3%)"
+  },
+  "40500350": {
+    "name": "UTESPELARE",
+    "type_name": "Gaming desk",
+    "category": "desk",
+    "reason": "heavy: 5.6 MB > 5 MB"
+  },
+  "50549431": {
+    "name": "MITTPLAN",
+    "type_name": "Desk",
+    "category": "desk",
+    "reason": "size_mismatch (max error 29.3%)"
+  },
+  "10489392": {
+    "name": "MILLBERGET",
+    "type_name": "Swivel chair",
+    "category": "desk_chair",
+    "reason": "heavy: 161,117 triangles > 100,000"
+  },
+  "40489395": {
+    "name": "MILLBERGET",
+    "type_name": "Swivel chair",
+    "category": "desk_chair",
+    "reason": "heavy: 160,954 triangles > 100,000"
+  },
+  "50564332": {
+    "name": "BLECKBERGET",
+    "type_name": "Swivel chair",
+    "category": "desk_chair",
+    "reason": "heavy: 295,644 triangles > 100,000"
+  },
+  "00354459": {
+    "name": "TARVA",
+    "type_name": "Bed frame",
+    "category": "bed",
+    "reason": "size_mismatch (max error 22.6%)"
+  },
+  "00458942": {
+    "name": "IDANÄS",
+    "type_name": "Upholstered bed frame",
+    "category": "bed",
+    "reason": "heavy: 217,888 triangles > 100,000"
+  },
+  "69094949": {
+    "name": "MANDAL",
+    "type_name": "Bed frame with headboard",
+    "category": "bed",
+    "reason": "size_mismatch (max error 28.5%)"
+  },
+  "70360485": {
+    "name": "UTÅKER",
+    "type_name": "Stackable bed",
+    "category": "bed",
+    "reason": "size_mismatch (max error 88.9%)"
+  },
+  "00340387": {
+    "name": "BURVIK",
+    "type_name": "Side table",
+    "category": "bedside_table",
+    "reason": "size_mismatch (max error 72.4%)"
+  },
+  "10476479": {
+    "name": "BJÖRKÅSEN",
+    "type_name": "Laptop stand",
+    "category": "bedside_table",
+    "reason": "size_mismatch (max error 22.3%)"
+  },
+  "20340391": {
+    "name": "BURVIK",
+    "type_name": "Side table",
+    "category": "bedside_table",
+    "reason": "size_mismatch (max error 72.5%)"
+  },
+  "70636427": {
+    "name": "BJÖRKÅSEN",
+    "type_name": "Laptop stand",
+    "category": "bedside_table",
+    "reason": "size_mismatch (max error 22.3%)"
+  },
+  "39430141": {
+    "name": "SMÅSTAD / PLATSA",
+    "type_name": "Wardrobe",
+    "category": "wardrobe",
+    "reason": "heavy: 177,535 triangles > 100,000"
+  },
+  "49211713": {
+    "name": "NORDLI",
+    "type_name": "Chest of 6 drawers",
+    "category": "chest_of_drawers",
+    "reason": "heavy: 118,570 triangles > 100,000"
+  },
+  "80339295": {
+    "name": "FJÄLLBO",
+    "type_name": "Shelving unit",
+    "category": "bookcase_shelf",
+    "reason": "heavy: 215,997 triangles > 100,000"
+  },
+  "10491719": {
+    "name": "VIHALS",
+    "type_name": "Sideboard",
+    "category": "sideboard_cabinet",
+    "reason": "size_mismatch (max error 32.4%)"
+  },
+  "30608515": {
+    "name": "IKEA PS 2026",
+    "type_name": "Floor uplighter",
+    "category": "floor_lamp",
+    "reason": "size_mismatch (max error 27.9%)"
+  },
+  "40561942": {
+    "name": "RÖDFLIK",
+    "type_name": "Floor/reading lamp",
+    "category": "floor_lamp",
+    "reason": "size_mismatch (max error 37.6%)"
+  },
+  "40563578": {
+    "name": "RÖDFLIK",
+    "type_name": "Floor/reading lamp",
+    "category": "floor_lamp",
+    "reason": "size_mismatch (max error 37.6%)"
+  },
+  "10601237": {
+    "name": "VARPTROSS",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 22.3%)"
+  },
+  "20156161": {
+    "name": "BÖJA",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 43.8%); heavy: 123,868 triangles > 100,000"
+  },
+  "20514169": {
+    "name": "BLIDVÄDER",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 27.9%)"
+  },
+  "50520932": {
+    "name": "BLÅSVERK",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 49.6%)"
+  },
+  "50525147": {
+    "name": "VARMBLIXT",
+    "type_name": "LED table/wall lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 173.8%)"
+  },
+  "90096376": {
+    "name": "FADO",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 122.8%)"
+  },
+  "90547982": {
+    "name": "BLÅSVERK",
+    "type_name": "Table lamp",
+    "category": "table_lamp",
+    "reason": "size_mismatch (max error 105.7%)"
+  }
+}

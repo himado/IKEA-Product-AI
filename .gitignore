@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------- secrets
+.env
+.env.*
+
+# ---------------------------------------------------------------- data (large, regenerable, or IKEA content)
+# IKEA 3D models / images / raw pages: demo use only, never redistribute (PLAN.md §10)
+data/models/
+data/models_unity/
+data/images/
+data/previews/
+data/products/
+data/excluded/
+data/enriched/
+data/enriched.jsonl
+# embedding index: python pipeline/index.py
+data/index/
+# Gemini response cache
+data/llm_cache/
+# room scans, ARCore recordings / playback videos / reports (phone data, 100+ MB each)
+data/scans/
+data/sim/
+# all run / build logs
+data/*.log
+*.log
+data/catalog.jsonl
+unity-app/
+
+# IKEA models copied into the Unity project (python pipeline/export_unity_models.py)
+unity-app/Assets/StreamingAssets/Models/*.glb
+unity-app/Assets/StreamingAssets/Models/*.glb.meta
+unity-app/Assets/StreamingAssets/Room/*.glb
+unity-app/Assets/StreamingAssets/Room/*.glb.meta
+
+# ---------------------------------------------------------------- Unity
+unity-app/[Ll]ibrary/
+unity-app/[Tt]emp/
+unity-app/[Oo]bj/
+unity-app/[Bb]uild/
+unity-app/[Bb]uilds/
+unity-app/[Ll]ogs/
+unity-app/[Uu]ser[Ss]ettings/
+unity-app/.utmp/
+unity-app/.vscode/
+unity-app/*.csproj
+unity-app/*.sln
+unity-app/*.slnx
+unity-app/*.unityproj
+unity-app/*.apk
+unity-app/*.aab
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+crashlytics-build.properties
+
+# ---------------------------------------------------------------- Node (glTF-Transform CLI: npm install --prefix tools/gltf)
+node_modules/
+
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------- editors / OS / local tools
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

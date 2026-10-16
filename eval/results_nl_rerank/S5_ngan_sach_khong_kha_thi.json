@@ -1,0 +1,18 @@
+{
+  "scenario": "S5_ngan_sach_khong_kha_thi",
+  "request": "Sofa 3 chỗ dưới 1,7 triệu",
+  "budget": 10000,
+  "budget_vnd": 1700000,
+  "total_price": 0,
+  "total_vnd": 0,
+  "picks": [],
+  "unmet": [
+    "sofa: không có sản phẩm nào vừa giá và vừa chỗ trong phòng"
+  ],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [],
+  "rule_violations": [],
+  "allocation_deviation": null
+}

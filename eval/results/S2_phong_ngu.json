@@ -1,0 +1,127 @@
+{
+  "scenario": "S2_phong_ngu",
+  "request": "Phòng ngủ cần giường đôi, một tủ đầu giường và tủ quần áo, tối đa 20 triệu",
+  "budget": 117647,
+  "budget_vnd": 20000000,
+  "total_price": 80970,
+  "total_vnd": 13764000,
+  "picks": [
+    {
+      "category": "bed",
+      "item_no": "30570211",
+      "name": "STJÄRNÖ",
+      "type_name": "Bed frame",
+      "price": 34990,
+      "price_vnd": 5948000,
+      "qty": 1,
+      "score": 0.8432,
+      "size_cm": [
+        142.5,
+        198.4,
+        134.3
+      ],
+      "model_file": "models/30570211.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 128.75,
+        "y": 201.6,
+        "w": 142.5,
+        "h": 198.4,
+        "clear_x": 78.75,
+        "clear_y": 151.6,
+        "clear_w": 242.5,
+        "clear_h": 248.4,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"giường đôi\" (độ giống 0.843); vừa vùng z1 (tường đầu giường, 270×260 cm), chừa 50 cm phía trước, 50 cm mỗi bên; giá 5.948.000 ₫",
+      "fit_vi": "khớp \"giường đôi\" (độ giống 0.843); vừa vùng z1 (tường đầu giường, 270×260 cm), chừa 50 cm phía trước, 50 cm mỗi bên; giá 5.948.000 ₫",
+      "target_vnd": 8655000,
+      "alternatives": [
+        "VEVELSTAD Bed frame 2.548.000 ₫",
+        "TARVA Bed frame 4.588.000 ₫",
+        "VIHALS Bed frame 4.078.000 ₫"
+      ]
+    },
+    {
+      "category": "bedside_table",
+      "item_no": "80388974",
+      "name": "VIKHAMMER",
+      "type_name": "Bedside table",
+      "price": 9990,
+      "price_vnd": 1698000,
+      "qty": 1,
+      "score": 0.877,
+      "size_cm": [
+        40.0,
+        38.5,
+        65.2
+      ],
+      "model_file": "models/80388974.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 10.0,
+        "y": 361.5,
+        "w": 40.0,
+        "h": 38.5,
+        "clear_x": 10.0,
+        "clear_y": 361.5,
+        "clear_w": 40.0,
+        "clear_h": 38.5,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"tủ đầu giường nhỏ\" (độ giống 0.877); vừa vùng z2 (cạnh giường trái, 60×60 cm); giá 1.698.000 ₫",
+      "fit_vi": "khớp \"tủ đầu giường nhỏ\" (độ giống 0.877); vừa vùng z2 (cạnh giường trái, 60×60 cm); giá 1.698.000 ₫",
+      "target_vnd": 2164000,
+      "alternatives": [
+        "MALM Chest of 2 drawers 1.530.000 ₫",
+        "IDANÄS Bedside table 5.098.000 ₫",
+        "KRONÖREN Bedside table 680.000 ₫"
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "item_no": "80439469",
+      "name": "NORDKISA",
+      "type_name": "Open wardrobe with sliding door",
+      "price": 35990,
+      "price_vnd": 6118000,
+      "qty": 1,
+      "score": 0.8604,
+      "size_cm": [
+        120.4,
+        47.4,
+        185.9
+      ],
+      "model_file": "models/80439469.glb",
+      "placement": {
+        "zone_id": "z3",
+        "x": 239.8,
+        "y": 0.0,
+        "w": 120.4,
+        "h": 47.4,
+        "clear_x": 239.8,
+        "clear_y": 0.0,
+        "clear_w": 120.4,
+        "clear_h": 127.4,
+        "front": "up"
+      },
+      "reason_vi": "khớp \"tủ quần áo\" (độ giống 0.860); vừa vùng z3 (tường đối diện, 200×140 cm), chừa 80 cm phía trước; giá 6.118.000 ₫",
+      "fit_vi": "khớp \"tủ quần áo\" (độ giống 0.860); vừa vùng z3 (tường đối diện, 200×140 cm), chừa 80 cm phía trước; giá 6.118.000 ₫",
+      "target_vnd": 6182000,
+      "alternatives": [
+        "SMÅGÖRA Wardrobe 3.398.000 ₫",
+        "BRIMNES Wardrobe with 3 doors 5.098.000 ₫",
+        "KRONÖREN Open wardrobe 1.698.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [
+    "tủ đầu giường ≤ 50% giá giường"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.19
+}

@@ -1,0 +1,9 @@
+requests>=2.31
+numpy>=1.24
+matplotlib>=3.7
+DracoPy>=1.4
+anthropic>=0.94
+pydantic>=2
+python-dotenv>=1
+sentence-transformers>=4.1
+torch>=2.2

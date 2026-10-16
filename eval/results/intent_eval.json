@@ -1,0 +1,1196 @@
+[
+ {
+  "text": "Phòng khách nhỏ, cần sofa 2 chỗ và đèn đọc sách, dưới 60 nghìn yên",
+  "result": {
+   "intent": {
+    "request": "Phòng khách nhỏ, cần sofa 2 chỗ và đèn đọc sách, dưới 60 nghìn yên",
+    "items": [
+     {
+      "category": "sofa",
+      "query": "compact 2-seat sofa for small living room",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "floor_lamp",
+      "query": "reading floor lamp",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": 60000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "sofa",
+      "user_words": "sofa 2 chỗ",
+      "search_en": "compact 2-seat sofa for small living room",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "floor_lamp",
+      "user_words": "đèn đọc sách",
+      "search_en": "reading floor lamp",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 60000.0,
+    "budget_currency": "JPY",
+    "room": "living_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Cần một giường đôi và 2 tủ đầu giường, khoảng 50 nghìn yên",
+  "result": {
+   "intent": {
+    "request": "Cần một giường đôi và 2 tủ đầu giường, khoảng 50 nghìn yên",
+    "items": [
+     {
+      "category": "bed",
+      "query": "double bed",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "bedside_table",
+      "query": "bedside table",
+      "qty": 2,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": 50000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "bed",
+      "user_words": "giường đôi",
+      "search_en": "double bed",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "bedside_table",
+      "user_words": "2 tủ đầu giường",
+      "search_en": "bedside table",
+      "qty": 2,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 50000.0,
+    "budget_currency": "JPY",
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Bàn ăn cho 4 người kèm 4 ghế, tổng dưới 50.000 yên",
+  "result": {
+   "intent": {
+    "request": "Bàn ăn cho 4 người kèm 4 ghế, tổng dưới 50.000 yên",
+    "items": [
+     {
+      "category": "dining_table",
+      "query": "4-seater dining table",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "dining_chair",
+      "query": "dining chair",
+      "qty": 4,
+      "max_price": null,
+      "needs_zone": false
+     }
+    ],
+    "budget": 50000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "dining_table",
+      "user_words": "Bàn ăn cho 4 người",
+      "search_en": "4-seater dining table",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "dining_chair",
+      "user_words": "4 ghế",
+      "search_en": "dining chair",
+      "qty": 4,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 50000.0,
+    "budget_currency": "JPY",
+    "room": "dining_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 40.000 yên",
+  "result": {
+   "intent": {
+    "request": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 40.000 yên",
+    "items": [
+     {
+      "category": "desk",
+      "query": "work desk",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "desk_chair",
+      "query": "swivel desk chair",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": false
+     },
+     {
+      "category": "table_lamp",
+      "query": "desk table lamp",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": 40000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "desk",
+      "user_words": "bàn làm việc",
+      "search_en": "work desk",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "desk_chair",
+      "user_words": "ghế xoay",
+      "search_en": "swivel desk chair",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "table_lamp",
+      "user_words": "đèn bàn",
+      "search_en": "desk table lamp",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 40000.0,
+    "budget_currency": "JPY",
+    "room": "home_office",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Tôi muốn một tủ quần áo cửa trượt",
+  "result": {
+   "intent": {
+    "request": "Tôi muốn một tủ quần áo cửa trượt",
+    "items": [
+     {
+      "category": "wardrobe",
+      "query": "sliding door wardrobe",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "wardrobe",
+      "user_words": "tủ quần áo cửa trượt",
+      "search_en": "sliding door wardrobe",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "kệ sách bằng gỗ cho phòng ngủ",
+  "result": {
+   "intent": {
+    "request": "kệ sách bằng gỗ cho phòng ngủ",
+    "items": [
+     {
+      "category": "bookcase_shelf",
+      "query": "wooden bookcase shelf",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "bookcase_shelf",
+      "user_words": "kệ sách bằng gỗ",
+      "search_en": "wooden bookcase shelf",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "cần cái thảm trải sàn phòng khách, tầm 1 triệu",
+  "result": {
+   "intent": {
+    "request": "cần cái thảm trải sàn phòng khách, tầm 1 triệu",
+    "items": [
+     {
+      "category": "rug",
+      "query": "living room rug",
+      "qty": 1,
+      "max_price": 5882,
+      "needs_zone": null
+     }
+    ],
+    "budget": 5882
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "rug",
+      "user_words": "thảm trải sàn phòng khách",
+      "search_en": "living room rug",
+      "qty": 1,
+      "max_unit_price": 1000000.0
+     }
+    ],
+    "budget_amount": 1000000.0,
+    "budget_currency": "VND",
+    "room": "living_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Một chiếc ghế bành êm để đọc sách",
+  "result": {
+   "intent": {
+    "request": "Một chiếc ghế bành êm để đọc sách",
+    "items": [
+     {
+      "category": "armchair",
+      "query": "cozy reading armchair",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "armchair",
+      "user_words": "Một chiếc ghế bành êm để đọc sách",
+      "search_en": "cozy reading armchair",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Kệ tivi dài khoảng 1m6",
+  "result": {
+   "intent": {
+    "request": "Kệ tivi dài khoảng 1m6",
+    "items": [
+     {
+      "category": "tv_bench",
+      "query": "TV bench 160cm length",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "tv_bench",
+      "user_words": "Kệ tivi dài khoảng 1m6",
+      "search_en": "TV bench 160cm length",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "tủ ngăn kéo cho phòng ngủ, dưới 2 triệu đồng",
+  "result": {
+   "intent": {
+    "request": "tủ ngăn kéo cho phòng ngủ, dưới 2 triệu đồng",
+    "items": [
+     {
+      "category": "chest_of_drawers",
+      "query": "bedroom chest of drawers",
+      "qty": 1,
+      "max_price": 11765,
+      "needs_zone": null
+     }
+    ],
+    "budget": 11765
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "chest_of_drawers",
+      "user_words": "tủ ngăn kéo cho phòng ngủ",
+      "search_en": "bedroom chest of drawers",
+      "qty": 1,
+      "max_unit_price": 2000000.0
+     }
+    ],
+    "budget_amount": 2000000.0,
+    "budget_currency": "VND",
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "chỗ ngồi êm ái để xem phim cả nhà",
+  "result": {
+   "intent": {
+    "request": "chỗ ngồi êm ái để xem phim cả nhà",
+    "items": [
+     {
+      "category": "sofa",
+      "query": "comfortable family sofa",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "sofa",
+      "user_words": "chỗ ngồi êm ái để xem phim cả nhà",
+      "search_en": "comfortable family sofa",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "living_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "nơi cất quần áo cho phòng ngủ",
+  "result": {
+   "intent": {
+    "request": "nơi cất quần áo cho phòng ngủ",
+    "items": [
+     {
+      "category": "wardrobe",
+      "query": "wardrobe for bedroom",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "wardrobe",
+      "user_words": "nơi cất quần áo cho phòng ngủ",
+      "search_en": "wardrobe for bedroom",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "ánh sáng cho góc đọc sách",
+  "result": {
+   "intent": {
+    "request": "ánh sáng cho góc đọc sách",
+    "items": [
+     {
+      "category": "floor_lamp",
+      "query": "reading floor lamp",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "floor_lamp",
+      "user_words": "ánh sáng cho góc đọc sách",
+      "search_en": "reading floor lamp",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "chỗ đặt máy tính để làm việc ở nhà",
+  "result": {
+   "intent": {
+    "request": "chỗ đặt máy tính để làm việc ở nhà",
+    "items": [
+     {
+      "category": "desk",
+      "query": "desk for home office",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "desk",
+      "user_words": "chỗ đặt máy tính để làm việc ở nhà",
+      "search_en": "desk for home office",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "home_office",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "trải dưới bàn trà cho ấm chân",
+  "result": {
+   "intent": {
+    "request": "trải dưới bàn trà cho ấm chân",
+    "items": [
+     {
+      "category": "rug",
+      "query": "rug for under coffee table",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "rug",
+      "user_words": "trải dưới bàn trà cho ấm chân",
+      "search_en": "rug for under coffee table",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "can mot ban an nho va 2 ghe an, duoi 30k yen",
+  "result": {
+   "intent": {
+    "request": "can mot ban an nho va 2 ghe an, duoi 30k yen",
+    "items": [
+     {
+      "category": "dining_table",
+      "query": "small dining table",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "dining_chair",
+      "query": "dining chair",
+      "qty": 2,
+      "max_price": null,
+      "needs_zone": false
+     }
+    ],
+    "budget": 30000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "dining_table",
+      "user_words": "mot ban an nho",
+      "search_en": "small dining table",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "dining_chair",
+      "user_words": "2 ghe an",
+      "search_en": "dining chair",
+      "qty": 2,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 30000.0,
+    "budget_currency": "JPY",
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "I need a small desk and an office chair under $200",
+  "result": {
+   "intent": {
+    "request": "I need a small desk and an office chair under $200",
+    "items": [
+     {
+      "category": "desk",
+      "query": "small desk",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "desk_chair",
+      "query": "office chair",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": false
+     }
+    ],
+    "budget": 30000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "desk",
+      "user_words": "small desk",
+      "search_en": "small desk",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "desk_chair",
+      "user_words": "an office chair",
+      "search_en": "office chair",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 200.0,
+    "budget_currency": "USD",
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Làm đẹp phòng khách giúp tôi",
+  "result": {
+   "intent": null,
+   "clarification_question": "Bạn muốn mua những món đồ nội thất nào cho phòng khách?",
+   "raw": {
+    "items": [],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "living_room",
+    "clarification_question_vi": "Bạn muốn mua những món đồ nội thất nào cho phòng khách?"
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Tôi cần một cái tủ lạnh",
+  "result": {
+   "intent": null,
+   "clarification_question": "Bạn cần tìm nội thất nào khác cho phòng của mình không (như bàn, ghế, tủ quần áo, giường)?",
+   "raw": {
+    "items": [],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": "Bạn cần tìm nội thất nào khác cho phòng của mình không (như bàn, ghế, tủ quần áo, giường)?"
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Sofa 3 chỗ màu xanh và 2 cái đôn",
+  "result": {
+   "intent": {
+    "request": "Sofa 3 chỗ màu xanh và 2 cái đôn",
+    "items": [
+     {
+      "category": "sofa",
+      "query": "3-seat blue sofa",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "ottoman_pouffe",
+      "query": "ottoman pouffe",
+      "qty": 2,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "sofa",
+      "user_words": "Sofa 3 chỗ màu xanh",
+      "search_en": "3-seat blue sofa",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "ottoman_pouffe",
+      "user_words": "2 cái đôn",
+      "search_en": "ottoman pouffe",
+      "qty": 2,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Tủ đầu giường màu trắng",
+  "result": {
+   "intent": {
+    "request": "Tủ đầu giường màu trắng",
+    "items": [
+     {
+      "category": "bedside_table",
+      "query": "white bedside table",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "bedside_table",
+      "user_words": "Tủ đầu giường màu trắng",
+      "search_en": "white bedside table",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Bàn trà và thảm cho phòng khách, tổng 20 nghìn yên",
+  "result": {
+   "intent": {
+    "request": "Bàn trà và thảm cho phòng khách, tổng 20 nghìn yên",
+    "items": [
+     {
+      "category": "coffee_side_table",
+      "query": "coffee table",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "rug",
+      "query": "rug",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": 20000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "coffee_table",
+      "user_words": "Bàn trà",
+      "search_en": "coffee table",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "rug",
+      "user_words": "thảm",
+      "search_en": "rug",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 20000.0,
+    "budget_currency": "JPY",
+    "room": "living_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Giá sách hẹp để ở hành lang",
+  "result": {
+   "intent": {
+    "request": "Giá sách hẹp để ở hành lang",
+    "items": [
+     {
+      "category": "bookcase_shelf",
+      "query": "narrow bookcase",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "bookcase_shelf",
+      "user_words": "Giá sách hẹp",
+      "search_en": "narrow bookcase",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "hallway",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Tủ trưng bày bằng kính",
+  "result": {
+   "intent": {
+    "request": "Tủ trưng bày bằng kính",
+    "items": [
+     {
+      "category": "sideboard_cabinet",
+      "query": "glass display cabinet",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "sideboard_cabinet",
+      "user_words": "Tủ trưng bày bằng kính",
+      "search_en": "glass display cabinet",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Đèn ngủ để trên tủ đầu giường",
+  "result": {
+   "intent": {
+    "request": "Đèn ngủ để trên tủ đầu giường",
+    "items": [
+     {
+      "category": "table_lamp",
+      "query": "bedside table lamp",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "table_lamp",
+      "user_words": "Đèn ngủ để trên tủ đầu giường",
+      "search_en": "bedside table lamp",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Phòng ngủ cho con: giường đơn, bàn học và ghế",
+  "result": {
+   "intent": {
+    "request": "Phòng ngủ cho con: giường đơn, bàn học và ghế",
+    "items": [
+     {
+      "category": "bed",
+      "query": "single bed frame",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "desk",
+      "query": "study desk",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     },
+     {
+      "category": "desk_chair",
+      "query": "desk chair",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": false
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "bed",
+      "user_words": "giường đơn",
+      "search_en": "single bed frame",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "desk",
+      "user_words": "bàn học",
+      "search_en": "study desk",
+      "qty": 1,
+      "max_unit_price": null
+     },
+     {
+      "category": "desk_chair",
+      "user_words": "ghế",
+      "search_en": "desk chair",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "kids_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-3.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Cần 6 ghế ăn",
+  "result": {
+   "intent": {
+    "request": "Cần 6 ghế ăn",
+    "items": [
+     {
+      "category": "dining_chair",
+      "query": "dining chair",
+      "qty": 6,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "dining_chair",
+      "user_words": "6 ghế ăn",
+      "search_en": "dining chair",
+      "qty": 6,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "ngân sách nửa triệu, mua một cái đèn cây",
+  "result": {
+   "intent": {
+    "request": "ngân sách nửa triệu, mua một cái đèn cây",
+    "items": [
+     {
+      "category": "floor_lamp",
+      "query": "floor lamp",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": 2941
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "floor_lamp",
+      "user_words": "một cái đèn cây",
+      "search_en": "floor lamp",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": 500000.0,
+    "budget_currency": "VND",
+    "room": null,
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Một sofa giường cho phòng khách nhỏ",
+  "result": {
+   "intent": {
+    "request": "Một sofa giường cho phòng khách nhỏ",
+    "items": [
+     {
+      "category": "sofa",
+      "query": "sofa bed for small living room",
+      "qty": 1,
+      "max_price": null,
+      "needs_zone": null
+     }
+    ],
+    "budget": null
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "sofa",
+      "user_words": "Một sofa giường cho phòng khách nhỏ",
+      "search_en": "sofa bed for small living room",
+      "qty": 1,
+      "max_unit_price": null
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": null,
+    "room": "living_room",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ },
+ {
+  "text": "Ghế gaming cho phòng ngủ dưới 15000 yên",
+  "result": {
+   "intent": {
+    "request": "Ghế gaming cho phòng ngủ dưới 15000 yên",
+    "items": [
+     {
+      "category": "desk_chair",
+      "query": "gaming chair",
+      "qty": 1,
+      "max_price": 15000,
+      "needs_zone": null
+     }
+    ],
+    "budget": 15000
+   },
+   "clarification_question": null,
+   "raw": {
+    "items": [
+     {
+      "category": "desk_chair",
+      "user_words": "Ghế gaming cho phòng ngủ",
+      "search_en": "gaming chair",
+      "qty": 1,
+      "max_unit_price": 15000.0
+     }
+    ],
+    "budget_amount": null,
+    "budget_currency": "JPY",
+    "room": "bedroom",
+    "clarification_question_vi": null
+   },
+   "source": "gemini-2.5-flash"
+  },
+  "errors": []
+ }
+]

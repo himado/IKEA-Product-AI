@@ -1,0 +1,127 @@
+{
+  "scenario": "S2_phong_ngu",
+  "request": "Phòng ngủ cần giường đôi, một tủ đầu giường và tủ quần áo, tối đa 20 triệu",
+  "budget": 117647,
+  "budget_vnd": 20000000,
+  "total_price": 73970,
+  "total_vnd": 12574000,
+  "picks": [
+    {
+      "category": "bed",
+      "item_no": "29613476",
+      "name": "SLATTUM",
+      "type_name": "Upholstered bed frame",
+      "price": 27990,
+      "price_vnd": 4758000,
+      "qty": 1,
+      "score": 0.8174,
+      "size_cm": [
+        147.6,
+        209.6,
+        85.0
+      ],
+      "model_file": "models/29613476.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 126.2,
+        "y": 190.4,
+        "w": 147.6,
+        "h": 209.6,
+        "clear_x": 76.2,
+        "clear_y": 140.39999999999998,
+        "clear_w": 247.6,
+        "clear_h": 259.6,
+        "front": "down"
+      },
+      "reason_vi": "Giường SLATTUM màu xám đậm với thiết kế bọc nệm và đầu giường có đệm mang lại vẻ ngoài hiện đại, phù hợp với phòng ngủ và có giá 4.758.000 VND, nằm trong khoảng giá mục tiêu.",
+      "fit_vi": "khớp \"double bed\" (độ giống 0.817); vừa vùng z1 (tường đầu giường, 270×260 cm), chừa 50 cm phía trước, 50 cm mỗi bên; giá 4.758.000 ₫",
+      "target_vnd": 8655000,
+      "alternatives": [
+        "VEVELSTAD Bed frame 2.548.000 ₫",
+        "VIHALS Bed frame 4.078.000 ₫",
+        "STJÄRNÖ Bed frame 5.948.000 ₫"
+      ]
+    },
+    {
+      "category": "bedside_table",
+      "item_no": "80388974",
+      "name": "VIKHAMMER",
+      "type_name": "Bedside table",
+      "price": 9990,
+      "price_vnd": 1698000,
+      "qty": 1,
+      "score": 0.8776,
+      "size_cm": [
+        40.0,
+        38.5,
+        65.2
+      ],
+      "model_file": "models/80388974.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 10.0,
+        "y": 361.5,
+        "w": 40.0,
+        "h": 38.5,
+        "clear_x": 10.0,
+        "clear_y": 361.5,
+        "clear_w": 40.0,
+        "clear_h": 38.5,
+        "front": "down"
+      },
+      "reason_vi": "Tủ đầu giường VIKHAMMER màu trắng có thiết kế sạch sẽ, đơn giản với ngăn kéo đóng êm, rất phù hợp với giường SLATTUM và có giá 1.698.000 VND, đáp ứng quy tắc giá (≤ 50% giá giường).",
+      "fit_vi": "khớp \"bedside table\" (độ giống 0.878); vừa vùng z2 (cạnh giường trái, 60×60 cm); giá 1.698.000 ₫",
+      "target_vnd": 2164000,
+      "alternatives": [
+        "KRONÖREN Bedside table 680.000 ₫",
+        "GRÅFJÄLLET Bedside table 1.020.000 ₫",
+        "NORDKISA Bedside table 1.698.000 ₫"
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "item_no": "80439469",
+      "name": "NORDKISA",
+      "type_name": "Open wardrobe with sliding door",
+      "price": 35990,
+      "price_vnd": 6118000,
+      "qty": 1,
+      "score": 0.8718,
+      "size_cm": [
+        120.4,
+        47.4,
+        185.9
+      ],
+      "model_file": "models/80439469.glb",
+      "placement": {
+        "zone_id": "z3",
+        "x": 239.8,
+        "y": 0.0,
+        "w": 120.4,
+        "h": 47.4,
+        "clear_x": 239.8,
+        "clear_y": 0.0,
+        "clear_w": 120.4,
+        "clear_h": 127.4,
+        "front": "up"
+      },
+      "reason_vi": "khớp \"wardrobe\" (độ giống 0.872); vừa vùng z3 (tường đối diện, 200×140 cm), chừa 80 cm phía trước; giá 6.118.000 ₫",
+      "fit_vi": "khớp \"wardrobe\" (độ giống 0.872); vừa vùng z3 (tường đối diện, 200×140 cm), chừa 80 cm phía trước; giá 6.118.000 ₫",
+      "target_vnd": 6182000,
+      "alternatives": [
+        "SMÅGÖRA Wardrobe 3.398.000 ₫",
+        "GURSKEN Wardrobe 2.208.000 ₫",
+        "KRONÖREN Open wardrobe 1.698.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "gemini-2.5-flash+repair",
+  "rerank_note": "gemini-2.5-flash chọn bộ không hợp lệ (các món không xếp được vào các vùng trống cùng lúc) -> giữ 2/3 món Gemini chọn, thay 1 món bằng lựa chọn hợp lệ tốt nhất",
+  "comment_vi": null,
+  "price_rules": [
+    "tủ đầu giường ≤ 50% giá giường"
+  ],
+  "rule_violations": [],
+  "allocation_deviation": 0.26
+}

@@ -1,0 +1,86 @@
+{
+  "scenario": "S3_goc_lam_viec",
+  "request": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 40.000 yên",
+  "budget": 40000,
+  "total_price": 10479,
+  "picks": [
+    {
+      "category": "desk",
+      "item_no": "70493956",
+      "name": "TORALD",
+      "type_name": "Desk",
+      "price": 3990,
+      "qty": 1,
+      "score": 0.8626,
+      "size_cm": [
+        65.3,
+        40.0,
+        75.0
+      ],
+      "model_file": "models/70493956.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 67.35,
+        "y": 160.0,
+        "w": 65.3,
+        "h": 40.0,
+        "clear_x": 67.35,
+        "clear_y": 90.0,
+        "clear_w": 65.3,
+        "clear_h": 110.0,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"work desk\" (độ giống 0.863); vừa vùng z1 (tường có ổ điện, 160×140 cm), chừa 70 cm phía trước; giá ¥3,990",
+      "alternatives": [
+        "KULLABERG Desk ¥24,990",
+        "LAGKAPTEN / ALEX Desk ¥14,990",
+        "LINNMON / ADILS Desk ¥4,290"
+      ]
+    },
+    {
+      "category": "desk_chair",
+      "item_no": "10503468",
+      "name": "SMÄLLEN",
+      "type_name": "Swivel chair",
+      "price": 2990,
+      "qty": 1,
+      "score": 0.896,
+      "size_cm": [
+        65.0,
+        64.9,
+        85.0
+      ],
+      "model_file": "models/10503468.glb",
+      "placement": null,
+      "reason_vi": "khớp \"swivel desk chair\" (độ giống 0.896); đặt trên đồ khác, không cần chỗ trên sàn; giá ¥2,990",
+      "alternatives": [
+        "ÖRFJÄLL Swivel chair ¥7,990",
+        "LOBERGET / MALSKÄR Swivel chair ¥5,990",
+        "STIGBYGEL Swivel chair with armrests ¥24,990"
+      ]
+    },
+    {
+      "category": "table_lamp",
+      "item_no": "40582713",
+      "name": "RÖDFLIK",
+      "type_name": "Desk lamp",
+      "price": 3499,
+      "qty": 1,
+      "score": 0.9001,
+      "size_cm": [
+        15.8,
+        23.8,
+        43.0
+      ],
+      "model_file": "models/40582713.glb",
+      "placement": null,
+      "reason_vi": "khớp \"desk table lamp\" (độ giống 0.900); đặt trên đồ khác, không cần chỗ trên sàn; giá ¥3,499",
+      "alternatives": [
+        "DEJSA Table lamp ¥5,999",
+        "HÖGVIND Table lamp ¥4,499",
+        "ÅRSTID Table lamp ¥3,499"
+      ]
+    }
+  ],
+  "unmet": []
+}

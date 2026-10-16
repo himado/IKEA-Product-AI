@@ -1,0 +1,108 @@
+{
+  "scenario": "S2_phong_ngu",
+  "request": "Phòng ngủ cần giường đôi, một tủ đầu giường và tủ quần áo, tối đa 120.000 yên",
+  "budget": 120000,
+  "total_price": 38979,
+  "picks": [
+    {
+      "category": "bed",
+      "item_no": "00506387",
+      "name": "VEVELSTAD",
+      "type_name": "Bed frame",
+      "price": 14990,
+      "qty": 1,
+      "score": 0.8488,
+      "size_cm": [
+        146.0,
+        206.6,
+        27.4
+      ],
+      "model_file": "models/00506387.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 127.0,
+        "y": 193.4,
+        "w": 146.0,
+        "h": 206.6,
+        "clear_x": 77.0,
+        "clear_y": 143.39999999999998,
+        "clear_w": 246.0,
+        "clear_h": 256.6,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"double bed\" (độ giống 0.849); vừa vùng z1 (tường đầu giường, 270×260 cm), chừa 50 cm phía trước, 50 cm mỗi bên; giá ¥14,990",
+      "alternatives": [
+        "VIHALS Bed frame ¥23,990",
+        "STJÄRNÖ Bed frame ¥34,990",
+        "TARVA Bed frame ¥26,990"
+      ]
+    },
+    {
+      "category": "bedside_table",
+      "item_no": "80610808",
+      "name": "KRONÖREN",
+      "type_name": "Bedside table",
+      "price": 3999,
+      "qty": 1,
+      "score": 0.8798,
+      "size_cm": [
+        39.1,
+        32.1,
+        55.2
+      ],
+      "model_file": "models/80610808.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 10.45,
+        "y": 367.9,
+        "w": 39.1,
+        "h": 32.1,
+        "clear_x": 10.45,
+        "clear_y": 367.9,
+        "clear_w": 39.1,
+        "clear_h": 32.1,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"bedside table\" (độ giống 0.880); vừa vùng z2 (cạnh giường trái, 60×60 cm); giá ¥3,999",
+      "alternatives": [
+        "GRÅFJÄLLET Bedside table ¥5,999",
+        "VIKHAMMER Bedside table ¥9,990",
+        "NORDKISA Bedside table ¥9,990"
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "item_no": "30460892",
+      "name": "SMÅGÖRA",
+      "type_name": "Wardrobe",
+      "price": 19990,
+      "qty": 1,
+      "score": 0.8772,
+      "size_cm": [
+        80.0,
+        52.6,
+        186.8
+      ],
+      "model_file": "models/30460892.glb",
+      "placement": {
+        "zone_id": "z3",
+        "x": 260.0,
+        "y": 0.0,
+        "w": 80.0,
+        "h": 52.6,
+        "clear_x": 260.0,
+        "clear_y": 0.0,
+        "clear_w": 80.0,
+        "clear_h": 132.6,
+        "front": "up"
+      },
+      "reason_vi": "khớp \"wardrobe\" (độ giống 0.877); vừa vùng z3 (tường đối diện, 200×140 cm), chừa 80 cm phía trước; giá ¥19,990",
+      "alternatives": [
+        "GURSKEN Wardrobe ¥12,990",
+        "NORDKISA Open wardrobe with sliding door ¥35,990",
+        "KRONÖREN Open wardrobe ¥9,990"
+      ]
+    }
+  ],
+  "unmet": []
+}

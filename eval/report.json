@@ -1,0 +1,61 @@
+{
+ "room": {
+  "scan": "20261016_174640_f741c4",
+  "profile_size_m": [
+   4.0,
+   4.25
+  ],
+  "truth_size_m": [
+   4.0,
+   5.0
+  ],
+  "size_error_pct": [
+   0.0,
+   15.0
+  ],
+  "trajectory_error_m": 0.231,
+  "matches": [
+   {
+    "gt": "FRYKSÅS TV bench",
+    "category": "tv_bench",
+    "found": "tv bench",
+    "centre_error_m": 0.66,
+    "wrong_class": null
+   },
+   {
+    "gt": "ROCKSJÖN 2-seat sofa",
+    "category": "sofa",
+    "found": "sofa",
+    "centre_error_m": 0.16,
+    "wrong_class": null
+   },
+   {
+    "gt": "BYAKORRE shelving",
+    "category": "bookcase_shelf",
+    "found": null,
+    "centre_error_m": 0.76,
+    "wrong_class": "bench"
+   },
+   {
+    "gt": "STOENSE rug",
+    "category": "rug",
+    "found": "rug",
+    "centre_error_m": 0.62,
+    "wrong_class": null
+   },
+   {
+    "gt": "LAUTERS floor lamp",
+    "category": "floor_lamp",
+    "found": null,
+    "centre_error_m": null,
+    "wrong_class": null
+   }
+  ],
+  "big_recall": "2/3 đúng loại, 3/3 đúng chỗ",
+  "all_recall": "3/5"
+ },
+ "violations": {
+  "bundles": 9,
+  "violations": []
+ }
+}

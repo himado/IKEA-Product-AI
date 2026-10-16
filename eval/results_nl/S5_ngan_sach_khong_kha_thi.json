@@ -1,0 +1,10 @@
+{
+  "scenario": "S5_ngan_sach_khong_kha_thi",
+  "request": "Sofa 3 chỗ dưới 10.000 yên",
+  "budget": 10000,
+  "total_price": 0,
+  "picks": [],
+  "unmet": [
+    "sofa: không có sản phẩm nào vừa giá và vừa chỗ trong phòng"
+  ]
+}

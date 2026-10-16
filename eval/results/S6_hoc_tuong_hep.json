@@ -1,0 +1,51 @@
+{
+  "scenario": "S6_hoc_tuong_hep",
+  "request": "Một cái kệ sách lọt vừa hốc tường rộng 50 cm",
+  "budget": null,
+  "budget_vnd": null,
+  "total_price": 2499,
+  "total_vnd": 425000,
+  "picks": [
+    {
+      "category": "bookcase_shelf",
+      "item_no": "00168527",
+      "name": "LERBERG",
+      "type_name": "Shelf unit",
+      "price": 2499,
+      "price_vnd": 425000,
+      "qty": 1,
+      "score": 0.8579,
+      "size_cm": [
+        35.6,
+        35.6,
+        147.4
+      ],
+      "model_file": "models/00168527.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 127.2,
+        "y": 114.4,
+        "w": 35.6,
+        "h": 35.6,
+        "clear_x": 127.2,
+        "clear_y": 74.4,
+        "clear_w": 35.6,
+        "clear_h": 75.6,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"kệ sách hẹp\" (độ giống 0.858); vừa vùng z1 (hốc 50 cm + lối đi, 50×100 cm), chừa 40 cm phía trước; giá 425.000 ₫",
+      "fit_vi": "khớp \"kệ sách hẹp\" (độ giống 0.858); vừa vùng z1 (hốc 50 cm + lối đi, 50×100 cm), chừa 40 cm phía trước; giá 425.000 ₫",
+      "target_vnd": null,
+      "alternatives": [
+        "LACK Wall shelf unit 2.208.000 ₫"
+      ]
+    }
+  ],
+  "unmet": [],
+  "ranker": "score",
+  "rerank_note": null,
+  "comment_vi": null,
+  "price_rules": [],
+  "rule_violations": [],
+  "allocation_deviation": 0.0
+}

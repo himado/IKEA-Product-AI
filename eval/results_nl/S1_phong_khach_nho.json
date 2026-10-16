@@ -1,0 +1,108 @@
+{
+  "scenario": "S1_phong_khach_nho",
+  "request": "Phòng khách nhỏ, cần sofa 2 chỗ, bàn trà và một đèn cây để đọc sách, tổng dưới 60.000 yên",
+  "budget": 60000,
+  "total_price": 30488,
+  "picks": [
+    {
+      "category": "sofa",
+      "item_no": "70434368",
+      "name": "HEMLINGBY",
+      "type_name": "2-seat sofa",
+      "price": 17990,
+      "qty": 1,
+      "score": 0.8586,
+      "size_cm": [
+        145.0,
+        71.4,
+        71.6
+      ],
+      "model_file": "models/70434368.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 87.5,
+        "y": 228.6,
+        "w": 145.0,
+        "h": 71.4,
+        "clear_x": 87.5,
+        "clear_y": 168.6,
+        "clear_w": 145.0,
+        "clear_h": 131.4,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"2-seat sofa for small living room\" (độ giống 0.859); vừa vùng z1 (tường đối diện cửa, 240×150 cm), chừa 60 cm phía trước; giá ¥17,990",
+      "alternatives": [
+        "HEMLINGBY Two-seat sofa ¥24,990",
+        "GLOSTAD 2-seat sofa ¥11,990",
+        "SALTMYRAN 2-seat sofa ¥24,990"
+      ]
+    },
+    {
+      "category": "coffee_side_table",
+      "item_no": "90543088",
+      "name": "MOXBODA",
+      "type_name": "Coffee table",
+      "price": 8999,
+      "qty": 1,
+      "score": 0.8754,
+      "size_cm": [
+        70.0,
+        70.0,
+        30.0
+      ],
+      "model_file": "models/90543088.glb",
+      "placement": {
+        "zone_id": "z2",
+        "x": 125.0,
+        "y": 65.0,
+        "w": 70.0,
+        "h": 70.0,
+        "clear_x": 125.0,
+        "clear_y": 35.0,
+        "clear_w": 70.0,
+        "clear_h": 100.0,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"coffee table\" (độ giống 0.875); vừa vùng z2 (giữa phòng, 140×110 cm), chừa 30 cm phía trước; giá ¥8,999",
+      "alternatives": [
+        "GLADOM Tray table ¥1,999",
+        "VITTSJÖ Coffee table ¥11,990",
+        "VITTERYD Adjustable coffee table ¥22,990"
+      ]
+    },
+    {
+      "category": "floor_lamp",
+      "item_no": "90443946",
+      "name": "LERSTA",
+      "type_name": "Floor/reading lamp",
+      "price": 3499,
+      "qty": 1,
+      "score": 0.8941,
+      "size_cm": [
+        25.2,
+        54.4,
+        145.2
+      ],
+      "model_file": "models/90443946.glb",
+      "placement": {
+        "zone_id": "z3",
+        "x": 295.6,
+        "y": 247.4,
+        "w": 54.4,
+        "h": 25.2,
+        "clear_x": 295.6,
+        "clear_y": 247.4,
+        "clear_w": 54.4,
+        "clear_h": 25.2,
+        "front": "left"
+      },
+      "reason_vi": "khớp \"reading floor lamp\" (độ giống 0.894); vừa vùng z3 (góc phải, 60×80 cm); giá ¥3,499",
+      "alternatives": [
+        "ISJAKT LED floor uplighter/reading lamp ¥14,440",
+        "TÅGARP Floor uplighter/reading lamp ¥2,999",
+        "HÅRSLINGA Floor lamp ¥3,499"
+      ]
+    }
+  ],
+  "unmet": []
+}

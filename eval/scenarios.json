@@ -1,0 +1,291 @@
+{
+  "_note": "Hand-written test cases for step 7 retrieval. Room coordinates in cm, origin bottom-left, y grows into the room (top = far wall). Zones = free floor rectangles; wall = the zone side that touches a wall. Intent replaces step 6 output, room replaces steps 1/12 output until those exist. Requests are phrased in VND (decision 2026-10-15); intent.budget is the JPY equivalent at backend/currency.py's fixed rate.",
+  "scenarios": [
+    {
+      "id": "S1_phong_khach_nho",
+      "room": {
+        "name": "Phòng khách nhỏ 3,5 × 3 m",
+        "width_cm": 350,
+        "depth_cm": 300,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 40,
+            "y": 150,
+            "w": 240,
+            "h": 150,
+            "wall": "top",
+            "label": "tường đối diện cửa"
+          },
+          {
+            "id": "z2",
+            "x": 90,
+            "y": 30,
+            "w": 140,
+            "h": 110,
+            "label": "giữa phòng"
+          },
+          {
+            "id": "z3",
+            "x": 290,
+            "y": 220,
+            "w": 60,
+            "h": 80,
+            "wall": "right",
+            "label": "góc phải"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Phòng khách nhỏ, cần sofa 2 chỗ, bàn trà và một đèn cây để đọc sách, tổng dưới 10 triệu",
+        "budget": 58824,
+        "items": [
+          {
+            "category": "sofa",
+            "query": "sofa 2 chỗ nhỏ gọn cho phòng khách nhỏ"
+          },
+          {
+            "category": "coffee_side_table",
+            "query": "bàn trà nhỏ đặt trước sofa"
+          },
+          {
+            "category": "floor_lamp",
+            "query": "đèn cây đọc sách"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S2_phong_ngu",
+      "room": {
+        "name": "Phòng ngủ 4 × 4 m",
+        "width_cm": 400,
+        "depth_cm": 400,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 65,
+            "y": 140,
+            "w": 270,
+            "h": 260,
+            "wall": "top",
+            "label": "tường đầu giường"
+          },
+          {
+            "id": "z2",
+            "x": 0,
+            "y": 340,
+            "w": 60,
+            "h": 60,
+            "wall": "top",
+            "label": "cạnh giường trái"
+          },
+          {
+            "id": "z3",
+            "x": 200,
+            "y": 0,
+            "w": 200,
+            "h": 140,
+            "wall": "bottom",
+            "label": "tường đối diện"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Phòng ngủ cần giường đôi, một tủ đầu giường và tủ quần áo, tối đa 20 triệu",
+        "budget": 117647,
+        "items": [
+          {
+            "category": "bed",
+            "query": "giường đôi",
+            "min_width_cm": 140
+          },
+          {
+            "category": "bedside_table",
+            "query": "tủ đầu giường nhỏ"
+          },
+          {
+            "category": "wardrobe",
+            "query": "tủ quần áo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S3_goc_lam_viec",
+      "room": {
+        "name": "Góc làm việc 2,4 × 2 m",
+        "width_cm": 240,
+        "depth_cm": 200,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 20,
+            "y": 60,
+            "w": 160,
+            "h": 140,
+            "wall": "top",
+            "label": "tường có ổ điện"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Góc làm việc tại nhà: bàn làm việc, ghế xoay và đèn bàn, dưới 7 triệu",
+        "budget": 41176,
+        "items": [
+          {
+            "category": "desk",
+            "query": "bàn làm việc máy tính"
+          },
+          {
+            "category": "desk_chair",
+            "query": "ghế xoay văn phòng",
+            "needs_zone": false
+          },
+          {
+            "category": "table_lamp",
+            "query": "đèn bàn làm việc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S4_phong_an",
+      "room": {
+        "name": "Phòng ăn 3 × 3 m",
+        "width_cm": 300,
+        "depth_cm": 300,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 20,
+            "y": 30,
+            "w": 260,
+            "h": 240,
+            "label": "giữa phòng ăn"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Bàn ăn cho 4 người kèm 4 ghế, tổng dưới 8 triệu",
+        "budget": 47059,
+        "items": [
+          {
+            "category": "dining_table",
+            "query": "bàn ăn cho 4 người"
+          },
+          {
+            "category": "dining_chair",
+            "query": "ghế ăn",
+            "qty": 4,
+            "needs_zone": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "S5_ngan_sach_khong_kha_thi",
+      "room": {
+        "name": "Phòng khách 4 × 3,5 m",
+        "width_cm": 400,
+        "depth_cm": 350,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 40,
+            "y": 230,
+            "w": 300,
+            "h": 120,
+            "wall": "top",
+            "label": "tường chính"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Sofa 3 chỗ dưới 1,7 triệu",
+        "budget": 10000,
+        "items": [
+          {
+            "category": "sofa",
+            "query": "sofa 3 chỗ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S6_hoc_tuong_hep",
+      "room": {
+        "name": "Hành lang có hốc tường rộng 50 cm, sâu 40 cm",
+        "width_cm": 300,
+        "depth_cm": 150,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 120,
+            "y": 50,
+            "w": 50,
+            "h": 100,
+            "wall": "top",
+            "label": "hốc 50 cm + lối đi"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Một cái kệ sách lọt vừa hốc tường rộng 50 cm",
+        "budget": null,
+        "items": [
+          {
+            "category": "bookcase_shelf",
+            "query": "kệ sách hẹp",
+            "max_width_cm": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "S7_goc_doc_sach",
+      "room": {
+        "name": "Góc đọc sách 2 × 2 m",
+        "width_cm": 200,
+        "depth_cm": 200,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 10,
+            "y": 10,
+            "w": 135,
+            "h": 180,
+            "label": "góc trống"
+          },
+          {
+            "id": "z2",
+            "x": 150,
+            "y": 120,
+            "w": 50,
+            "h": 80,
+            "wall": "right",
+            "label": "cạnh tường"
+          }
+        ]
+      },
+      "intent": {
+        "request": "Góc đọc sách: một ghế bành êm, thảm nhỏ và đèn đứng, tổng dưới 5 triệu",
+        "budget": 29412,
+        "items": [
+          {
+            "category": "armchair",
+            "query": "ghế bành êm để đọc sách"
+          },
+          {
+            "category": "rug",
+            "query": "thảm nhỏ"
+          },
+          {
+            "category": "floor_lamp",
+            "query": "đèn đứng đọc sách"
+          }
+        ]
+      }
+    }
+  ]
+}

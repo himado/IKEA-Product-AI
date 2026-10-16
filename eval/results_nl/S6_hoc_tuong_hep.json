@@ -1,0 +1,38 @@
+{
+  "scenario": "S6_hoc_tuong_hep",
+  "request": "Một cái kệ sách lọt vừa hốc tường rộng 50 cm",
+  "budget": null,
+  "total_price": 12990,
+  "picks": [
+    {
+      "category": "bookcase_shelf",
+      "item_no": "40282187",
+      "name": "LACK",
+      "type_name": "Wall shelf unit",
+      "price": 12990,
+      "qty": 1,
+      "score": 0.8345,
+      "size_cm": [
+        30.2,
+        28.3,
+        192.0
+      ],
+      "model_file": "models/40282187.glb",
+      "placement": {
+        "zone_id": "z1",
+        "x": 129.9,
+        "y": 121.7,
+        "w": 30.2,
+        "h": 28.3,
+        "clear_x": 129.9,
+        "clear_y": 81.7,
+        "clear_w": 30.2,
+        "clear_h": 68.3,
+        "front": "down"
+      },
+      "reason_vi": "khớp \"bookcase 50cm wide\" (độ giống 0.835); vừa vùng z1 (hốc 50 cm + lối đi, 50×100 cm), chừa 40 cm phía trước; giá ¥12,990",
+      "alternatives": []
+    }
+  ],
+  "unmet": []
+}
